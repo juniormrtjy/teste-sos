@@ -113,8 +113,8 @@
 
 @media (max-width:550px) {
   .container {
-    margin-left:.3rem;
-    margin-right:.3rem;
+    margin-left:1rem;
+    margin-right:1rem;
   }
   #header .img img {
     width:70px;
