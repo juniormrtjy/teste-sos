@@ -60,6 +60,13 @@
     position:sticky;
     z-index: 1;
   }
+
+  #header nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 1rem;
+  }
+
   #header .menu {
     display:block;
     position:fixed;
@@ -84,9 +91,9 @@
     display:block;
   }
   #header .open {
-    position:absolute;
+    /* position:absolute;
     top:50px;
-    right:50px;
+    right:50px; */
     font-size:1.4rem;
   }
   #header .close {
@@ -97,9 +104,7 @@
   }
   #header nav.show .close {
     display:block;
-    position:fixed;
-    top:50px;
-    right:50px;
+    position:relative;
     z-index: 11;
     font-size:1.4rem;
   }
